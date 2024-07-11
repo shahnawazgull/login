@@ -1,0 +1,99 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 5px 3px 4px 5px black;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group.name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group.name input {
+  width: 48%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.pass {
+  margin-bottom: 8px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+  margin-bottom: 8px;
+}
+
+input[type="button"],
+input[type="submit"] {
+  /* width: 100%; */
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 24px;
+  margin-bottom: 10px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+.button-group input {
+  width: 48%;
+}
+.button-group a {
+  display: inline-block;
+  width: 48%;
+}
+#country {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#Register:hover {
+  background-color: rgb(119, 119, 119);
+  cursor: pointer;
+}
+
+#Login {
+  background-color: rgb(119, 119, 119);
+}
+#Login:hover {
+  background-color: rgb(77, 158, 11);
+  cursor: pointer;
+}
+
+#checkbox {
+  margin: 15px;
+}

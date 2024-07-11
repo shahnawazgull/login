@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Page</title>
+        <link rel="stylesheet" type="text/css" href="Registration.css">
+        
+    </head>
+    <body>
+        <div class="container">
+            <h2>Registration Form</h2>
+            <form action="">
+                <div class="form-group name">
+                <input type="text" name="firstname" placeholder="First Name">
+                <input type="text" name="lastname" placeholder="Last Name">
+                
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" id="email" placeholder="Enter Your Email">
+            </div>
+            <div class="pass">
+                <input type="password" name="password" placeholder="Enter your Password">
+            </div >
+            <div class="pass">
+                <input type="password" name="confirmpassowrd" placeholder="Confirm Password">
+            </div>
+            <div class="radio">
+                
+                <input type="radio" id="male" name="gender" checked value="Male" >
+                <label for="male">Male<br></label>
+                
+                <input type="radio" id="Female" name="gender" value="Female">
+                <label for="Female">Female<br></label>
+                
+                <input type="radio" id="Other" name="gender" value="Other">
+                <label for="Other">Other<br></label>
+            </div>
+            <div>
+                <select name="country" id="country">
+                    <option value="" disabled selected>--Choose Country</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="India">India</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Canada">Canada</option>
+                    <option value="USA">USA</option>
+                </select>
+            </div>
+            <div>
+                
+                <label for="checkbox"> <input type="checkbox" id="checkbox">  I Accept the terms and conditions</label>
+            </div>
+            <div class="button-group">
+                <input type="button" value="Register" id="Register">
+                <a href="Login.html">
+                    <input type="button" value="Login" id="Login">
+                </a>
+            </div>
+            </form>
+        </div>
+    </body>

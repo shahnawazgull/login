@@ -2,18 +2,22 @@
   margin: 0%;
   padding: 0%;
 }
+
 body {
   text-align: center;
   background-color: #ffffff;
   font-family: 'Times New Roman', Times, serif;
 }
+
 h2 {
   text-align: center;
   margin-bottom: 20px;
 }
+
 .dd {
   margin: 10px;
 }
+
 form {
   display: flex;
   flex-direction: column;
@@ -32,12 +36,15 @@ form {
   justify-content: center;
   align-items: center;
 }
+
 form {
   width: 100%;
 }
-form > div {
+
+form>div {
   width: 100%;
 }
+
 form .dd input {
   width: 100%;
   margin: 5px;
@@ -45,6 +52,7 @@ form .dd input {
   border: 1px solid #ccc;
   border-radius: 20px;
 }
+
 #Login {
   width: 100%;
   padding: 10px;
@@ -54,12 +62,14 @@ form .dd input {
   border: none;
   border-radius: 20px;
 }
+
 #login:hover {
   background-color: #ffffff;
   color: black;
   border: 2px solid black;
   cursor: pointer
 }
+
 span.anchor {
   display: flex;
   justify-content: space-between;
@@ -67,56 +77,63 @@ span.anchor {
   padding: 10px;
   font-size: large;
 }
+
 a {
   color: #007bff;
   text-decoration: none;
 }
+
 span.anchor a:hover {
   color: gray;
   border-left: 2px solid #007bff;
   padding-left: 10px;
   transition: all .5s ease;
 }
+
 span.anchor a:hover {
   padding-right: 10px;
 }
-@media (max-width:768px)
-{
+
+@media (max-width:768px) {
   .container {
     /* margin: 100px 25px; */
-    margin:70px auto;
+    margin: 70px auto;
     width: 70%;
   }
-  form > div input {
+
+  form>div input {
     margin: 3px;
     padding: 7px;
   }
+
   span.anchor {
     width: 100%;
     padding: 7px;
     font-size: large;
   }
 }
-@media (max-width:550px)
-{
+
+@media (max-width:550px) {
   .container {
     width: 70%;
-    margin:70px auto;
-    box-shadow:none;
+    margin: 70px auto;
+    box-shadow: none;
   }
+
   form .dd input {
     width: 100%;
     margin: 5px;
     padding: 12px;
   }
 }
-@media (max-width:340px)
-{
+
+@media (max-width:340px) {
   .container {
-    margin:70px auto;
+    margin: 70px auto;
     width: 70%;
   }
-  form>div input{
+
+  form>div input {
     margin: 2px;
   }
 }

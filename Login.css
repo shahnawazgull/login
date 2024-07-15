@@ -113,6 +113,10 @@ span.anchor a:hover {
     padding: 7px;
     font-size: large;
   }
+  #Login{
+    width: 90%;
+    margin: auto;
+  }
 }
 
 @media (max-width:550px) {
@@ -123,19 +127,15 @@ span.anchor a:hover {
   }
 
   form .dd input {
-    width: 100%;
+    width: 90%;
     margin: 5px;
     padding: 12px;
   }
 }
 
-@media (max-width:340px) {
+@media (max-width:400px) {
   .container {
     margin: 70px auto;
-    width: 70%;
-  }
-
-  form>div input {
-    margin: 2px;
+    width: 90%;
   }
 }
